@@ -17,7 +17,7 @@ public class Servlet1 extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
-        response.setContentType("text/html");
+        response.setContentType("text/htmlii");
         PrintWriter out = response.getWriter();
         out.println("<!doctype html>");
         out.println("<html>");
